@@ -1,4 +1,5 @@
-import ThreeDOrbitViewer from './components/ThreeDOrbitViewer';
+import ThreeDOrbitViewer from "./components/ThreeDOrbitViewer";
+import ImpactMapViewer from "./components/ImpactMapViewer";
 
 export default function App() {
   return (
@@ -15,6 +16,9 @@ export default function App() {
 
       {/* 3D Orbit Viewer Section */}
       <ThreeDOrbitViewer />
+
+      {/* Impact Map Section */}
+      <ImpactMapViewer />
 
       {/* Footer */}
       <footer className="py-12 px-4 text-center text-slate-400 text-sm">
